@@ -1,8 +1,11 @@
 = ARSnova
 Particify <arsnova@particify.de>
+:imagesdir: assets
 
 ARSnova is a modern, web-based approach to Audience Response Systems (ARS).
 It is the basis for the https://particify.de[online service Particify] and released under an open-source license.
+
+image::showcase.png[A showcase of ARSnova's quiz feature,700]
 
 This repository serves as an entry point to the project but does not contain the software itself.
 
