@@ -34,7 +34,7 @@ Documentation for end-users, administrators and developers is available:
 
 * https://particify.de/manual/[End-user documentation] (German only, an English version is planned)
 * https://gitlab.com/particify/dev/foss/docker-orchestration[Installation guide]
-* For developers: Refer to the documentation in the individual component repositories
+* For developers: Refer to the documentation in the individual component repositories.
 
 
 == Components
