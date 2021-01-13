@@ -1,0 +1,60 @@
+= ARSnova
+Particify <arsnova@particify.de>
+
+ARSnova is a modern, web-based approach to Audience Response Systems (ARS).
+It is the basis for the https://particify.de[online service Particify] and released under an open-source license.
+
+This repository serves as an entry point to the project but does not contain the software itself.
+
+
+== Get started
+
+A good starting point to run ARSnova yourself is the https://gitlab.com/particify/dev/foss/docker-orchestration[Docker Orchestration repository].
+
+Documentation for end-users, administrators and developers is available:
+
+* https://particify.de/manual/[End-user documentation] (German only, an English version is planned)
+* https://gitlab.com/particify/dev/foss/docker-orchestration[Installation guide]
+* For developers: Refer to the documentation in the individual component repositories
+
+
+== Components
+
+The ARSnova software is composed of multiple components:
+the https://gitlab.com/particify/dev/foss/arsnova-webclient[web client] and multiple backend services.
+
+These are the open-source components with their own repositories:
+
+* https://gitlab.com/particify/dev/foss/arsnova-webclient[Web Client]
+* https://gitlab.com/particify/dev/foss/arsnova-http-gateway[HTTP Gateway]
+* https://gitlab.com/particify/dev/foss/arsnova-ws-gateway[WebSocket Gateway]
+* https://gitlab.com/particify/dev/foss/arsnova-auth-service[Auth Service]
+* https://gitlab.com/particify/dev/foss/arsnova-backend[Core Backend Service]
+* https://gitlab.com/particify/dev/foss/arsnova-comment-service[Comment Service]
+* https://gitlab.com/particify/dev/foss/formatting-service[Formatting Service]
+
+
+== Releases
+
+Starting from version 3, we are using a rolling release model for ARSnova development.
+We provide container images for all services which are continuously updated.
+
+
+== Support
+
+=== Community support
+
+Discuss ARSnova-related questions with other ARSnova users:
+
+* General discussions: https://gitter.im/particify-foss/arsnova-community
+* Development-related discussions: https://gitter.im/particify-foss/arsnova-dev
+
+
+=== Commercial support
+
+If you need professional support with quick response times, we've got you covered.
+We offer https://particify.de/arsnova/dienstleistungen[support services around ARSnova] (German website) through Particify which include:
+
+* installation and integration
+* updates and data migration
+* customization
