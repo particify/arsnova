@@ -10,6 +10,22 @@ image::showcase.png[A showcase of ARSnova's quiz feature,700]
 This repository serves as an entry point to the project but does not contain the software itself.
 
 
+== Features
+
+* **Comments and Q & A:**
+  Let your audience create and prioritize comments or questions which you can answer.
+* **Quizzes and evaluations:**
+  Select from multiple formats for quiz questions including multiple choice, likert scale, open question and sorting.
+* **Live updates:**
+  Keep track of results and comments in real-time.
+* **Collections:**
+  Organize quizzes or evaluations.
+* **Moderation:**
+  Review comments before they are published. Assign additional users as moderators.
+* **Feedback:**
+  Realize early when the audience can no longer follow.
+
+
 == Get started
 
 A good starting point to run ARSnova yourself is the https://gitlab.com/particify/dev/foss/docker-orchestration[Docker Orchestration repository].
